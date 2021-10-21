@@ -1,0 +1,35 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #001122;
+}
+
+.top {
+  background-color: #001122;
+  color: white;
+  padding: 10px;
+  font-size: 1.2em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.rulers {
+  border: 1px solid #001122;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  border: 1px solid #001122;
+}
+
+.entry a {
+  color: #253c93;
+  text-decoration: none;
+  border-bottom: 1px dotted #001122;
+}
+.entry a:hover {
+  border-bottom: 1px solid #001122;
+}
+
+.left-padding {
+  padding-left: 10px;
+}
