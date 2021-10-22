@@ -1,0 +1,99 @@
+body {
+  font-family: "Lato", sans-serif;
+  color: #242f5f;
+}
+
+.top {
+  background-color: #a7cfe8;
+  color: #242f5f;
+  padding: 20px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  border: 1px solid #242f5f;
+}
+
+.top h1 {
+  font-weight: 900;
+  margin: 0;
+}
+
+.top-nav {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 20px 0px 0px 0px;
+}
+
+.top-nav li {
+  display: inline-block;
+  font-weight: 700;
+  padding-right: 22px;
+}
+
+.top-nav a {
+  color: #242f5f;
+  text-decoration: none;
+}
+
+.top-nav a:hover {
+  color: #f96b69;
+}
+
+.container-1 {
+  border: 1px solid #242f5f;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.container-1 h2 {
+  margin: 0;
+}
+
+.container-1 ul {
+  margin: 0;
+}
+
+.likes ul {
+  list-style-type: circle;
+}
+
+footer {
+  margin: 10px auto;
+  text-align: center;
+  border: 1px solid #242f5f;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.footer-nav a {
+  color: #242f5f;
+  text-decoration: none;
+  border-bottom: 1px dotted #242f5f;
+}
+
+.footer-nav a:hover {
+  color: #f96b69;
+  border-bottom: 1px solid #f96b69;
+}
+
+.top-follow-page {
+  background-color: #a7cfe8;
+  color: #242f5f;
+  padding: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  border: 1px solid #242f5f;
+  text-align: center;
+}
+
+figure {
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+}
+
+.profile-pic {
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid #242f5f;
+}
