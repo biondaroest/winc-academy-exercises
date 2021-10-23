@@ -1,0 +1,165 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #424242;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+a {
+  color: #424242;
+  text-decoration: none;
+}
+
+a :hover {
+  color: #bbbbbb;
+}
+
+.top {
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid #424242;
+  margin: 10px 10px 0px 10px;
+}
+
+.top h1 {
+  font-weight: 700;
+  font-size: 4em;
+  line-height: 50px;
+  color: #000;
+  margin: 0 auto;
+}
+
+.top hr {
+  border: 4px solid #000;
+  width: 130px;
+  float: left;
+}
+
+.top-nav {
+  margin: 44px auto 0;
+  width: 100%;
+  text-align: center;
+}
+
+.top-nav ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.top-nav li {
+  padding: 0px 20px 0px 20px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.top-nav a {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.top-nav a:hover {
+  color: #b68ebe;
+}
+
+.container-1 {
+  border: 1px solid #b68ebe;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 10px 10px 0px 10px;
+  background-color: #b68ebe;
+  color: #fff;
+}
+
+.container-1 h2 {
+  margin: 0;
+  font-size: 2em;
+  line-height: 50px;
+}
+
+.container-1 hr {
+  border: 4px solid #fff;
+  width: 130px;
+  float: left;
+}
+
+.experience h3 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.experience p {
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.container-1 ul {
+  margin: 0;
+  list-style-type: circle;
+}
+
+footer {
+  border: 1px solid #a6cad6;
+  border-radius: 30px;
+  background-color: #a6cad6;
+  margin: 10px 10px 0px 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-nav a {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.footer-nav a:hover {
+  color: #e8d8ad;
+}
+
+.top-no-logo {
+  border: 1px solid #b68ebe;
+  border-radius: 30px;
+  background-color: #b68ebe;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 10px 0px 10px;
+}
+
+figure {
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+}
+
+.profile-pic {
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+@media (min-width: 1024px) {
+  .top {
+    background-color: #a8e2c9;
+    border: #a8e2c9;
+  }
+
+  .top h1 {
+    color: #fff;
+    line-height: 65px;
+  }
+
+  .top hr {
+    border: 4px solid #fff;
+  }
+
+  .top-nav a {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+    padding: 0px 50px 0px 50px;
+  }
+
+  .experience p {
+    line-height: 30px;
+  }
+}
