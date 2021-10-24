@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact</title>
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="top-no-logo">
+      <h1>Contact</h1>
+    </header>
+
+    <main>
+      <form
+        name="recipes"
+        method="POST"
+        data-netlify="true"
+        class="recipe-form"
+      >
+        <h3>Post your favorite recipes!</h3>
+        <input type="text" name="name" placeholder="Name" /><br />
+        <input type="text" name="email" placeholder="E-mail" /><br />
+        <input type="tel" name="telnr" placeholder="Phonenumber" /><br />
+        <input type="text" name="age" placeholder="Age" /><br />
+
+        <p>Date of Birth:</p>
+        <input type="date" name="dateofbirth" /><br />
+
+        <p>Gender:</p>
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" value="Female" /><br />
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" value="Male" /><br />
+        <label for="Other">Other</label>
+        <input type="radio" name="gender" value="Other" /><br />
+
+        <p>What is your favorite cuisine?</p>
+        <label for="French">French</label>
+        <input type="checkbox" name="French" />
+        <label for="Italian">Italian</label>
+        <input type="checkbox" name="Italian" />
+        <label for="Spanish">Spanish</label>
+        <input type="checkbox" name="Spanish" />
+        <label for="Arabic">Arabic</label>
+        <input type="checkbox" name="Arabic" />
+
+        <p>What is your favorite apron color?</p>
+        <input type="color" name="color" />
+
+        <p>Write a short biography:</p>
+        <textarea
+          placeholder="biography"
+          name="biography"
+          cols="30"
+          rows="10"
+        ></textarea>
+
+        <p>Upload your latest recipe:</p>
+        <input type="file" name="file-recipe" />
+        <p>Url to recipe website:</p>
+        <input type="url" name="url-recipe" />
+        <br />
+        <input type="reset" name="reset" />
+        <input type="submit" name="submit" />
+      </form>
+    </main>
+
+    <footer>
+      <nav class="footer-nav">
+        <a href="index.html">Go back</a>
+      </nav>
+    </footer>
+  </body>
+</html>
