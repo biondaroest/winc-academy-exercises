@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact</title>
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="top">
+      <h1>Beans</h1>
+      <br />
+      <h1>Online</h1>
+      <br />
+      <p>"The best coffee in town!"</p>
+      <img class="top-coffee-img" src="img/Coffee_Cup.svg" alt="" />
+    </header>
+
+    <nav class="navbar">
+      <ul>
+        <li>
+          <button><a href="index.html">Menu</a></button>
+        </li>
+        <li>
+          <button><a href="about_us.html">About us</a></button>
+        </li>
+        <li>
+          <button><a href="contact.html">Contact</a></button>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="contact-form">
+      <h2>Place your order!</h2>
+      <section class="contact-form-box">
+        <form name="contact" method="POST" data-netlify="true" class="form-1">
+          <label for="name">Name</label>
+          <input class="input-txt" type="text" name="name" />
+          <label for="email">E-mail</label>
+          <input class="input-txt" type="text" name="email" />
+          <label for="amount-br">Blonde Roast</label>
+          <input class="input-txt" type="number" name="amount-br" />
+          <label for="amount-dr">Dark Roast</label>
+          <input class="input-txt" type="number" name="amount-dr" />
+
+          <label for="message">Message</label>
+          <textarea
+            class="input-txt"
+            name="message"
+            cols="20"
+            rows="5"
+          ></textarea>
+
+          <button><input class="input-btn" type="submit" /></button>
+        </form>
+      </section>
+    </section>
+
+    <footer>
+      <section class="social-icon">
+        <a href="https://www.instagram.com/"
+          ><img src="img/instagram.png" alt=""
+        /></a>
+        <a href="https://www.facebook.com/"
+          ><img src="img/facebook.png" alt=""
+        /></a>
+        <a href="https://twitter.com/"><img src="img/twitter.png" alt="" /></a>
+      </section>
+      <p>Copyright &copy;2021</p>
+    </footer>
+  </body>
+</html>

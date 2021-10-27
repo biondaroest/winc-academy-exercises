@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.top {
+  background-color: #e76f51;
+  padding: 71px;
+  border-radius: 30px;
+  margin: 10px;
+  position: relative;
+}
+
+.top h1 {
+  color: #fff;
+  font-size: 100px;
+  font-weight: 800;
+  line-height: 0.9;
+  display: inline-block;
+}
+
+.top p {
+  color: #e9c46a;
+  display: inline-block;
+  padding-left: 40px;
+  font-size: 46px;
+}
+
+.top-coffee-img {
+  float: right;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  width: 463px;
+}
+
+.navbar {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0px 30px 0px 30px;
+}
+
+.navbar a {
+  color: #5f5e5e;
+  text-decoration: none;
+  font-size: 54px;
+}
+
+.navbar a:hover {
+  color: #e76f51;
+}
+
+.navbar button {
+  color: #5f5e5e;
+  border: 2px solid #5f5e5e;
+  padding: 10px 40px 10px 40px;
+  border-radius: 30px;
+}
+
+.menu h2 {
+  color: #5f5e5e;
+  font-size: 65px;
+}
+
+.menu p {
+  color: #f4a261;
+  font-size: 45px;
+  padding-left: 40px;
+}
+
+.menu button {
+  border: 2px solid #5f5e5e;
+  padding: 10px 40px 10px 40px;
+  margin-top: 40px;
+  border-radius: 30px;
+}
+
+.menu a {
+  color: #5f5e5e;
+  text-decoration: none;
+  font-size: 56px;
+}
+
+.menu a:hover {
+  color: #e76f51;
+}
+
+.menu-item-1 {
+  background-color: #f5f5f5;
+  padding: 200px 150px;
+  border-radius: 30px;
+  margin: 10px;
+  position: relative;
+}
+
+.menu-item-img-1 {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+}
+
+.menu img {
+  width: 270px;
+}
+
+.menu-item-2 {
+  background-color: #f5f5f5;
+  padding: 200px 150px;
+  border-radius: 30px;
+  margin: 10px;
+  position: relative;
+}
+
+.menu-item-img-2 {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+}
+
+.about-us {
+  background-color: #f5f5f5;
+  padding: 65px 95px;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.about-us h2 {
+  color: #f4a261;
+  font-size: 65px;
+  padding-bottom: 30px;
+}
+
+.about-us p {
+  color: #5f5e5e;
+  font-weight: 300;
+}
+
+.reviews {
+  background-color: #f5f5f5;
+  padding: 100px 150px;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.reviews h3 {
+  color: #f4a261;
+  padding-top: 30px;
+}
+
+.reviews p {
+  color: #5f5e5e;
+}
+
+.reviews img {
+  width: 500px;
+  border-radius: 30px;
+}
+
+.review-block {
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contact-form {
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 65px 30px 122px;
+}
+
+.contact-form h2 {
+  color: #f4a261;
+  font-size: 65px;
+  margin: 0 auto;
+  width: 600px;
+  padding-bottom: 30px;
+}
+
+.contact-form-box {
+  margin: 0 auto;
+  padding: 60px;
+  display: block;
+  width: 500px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.contact-form label {
+  color: #e76f51;
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+.contact-form button {
+  border: 2px solid #5f5e5e;
+  padding: 10px 40px 10px 40px;
+  margin-top: 40px;
+  border-radius: 30px;
+}
+
+.input-txt {
+  border: none;
+  border-bottom: 2px solid #5f5e5e;
+  display: block;
+  font-size: 45px;
+  width: 500px;
+  color: #5f5e5e;
+  padding: 5px 5px 0px 5px;
+}
+
+.input-btn {
+  border: none;
+  font-size: 40px;
+  color: #5f5e5e;
+}
+
+footer {
+  background-color: #f4a261;
+  color: #f5f5f5;
+  padding: 90px;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+
+.social-icon {
+  margin: 0 auto;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.social-icon img {
+  width: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media (min-width: 1024px) {
+  .top {
+    padding: 30px;
+  }
+
+  .top h1 {
+    font-size: 40px;
+  }
+
+  .top p {
+    font-size: 22px;
+  }
+
+  .top-coffee-img {
+    width: 195px;
+    left: 280px;
+  }
+
+  .navbar li {
+    padding: 0px 80px 0px 80px;
+  }
+
+  .navbar button {
+    border: 1px solid;
+  }
+
+  .navbar a {
+    font-size: 17px;
+  }
+
+  .menu h2 {
+    font-size: 22px;
+  }
+
+  .menu p {
+    font-size: 17px;
+  }
+
+  .menu button {
+    border: 1px solid;
+  }
+
+  .menu a {
+    font-size: 17px;
+  }
+
+  .menu-item-1 {
+    padding-left: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .menu-item-img-1 {
+    top: 65px;
+    right: 600px;
+  }
+
+  .menu-item-img-1 img {
+    width: 190px;
+  }
+
+  .menu-item-2 {
+    padding-left: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .menu-item-img-2 {
+    top: 65px;
+    right: 600px;
+  }
+
+  .menu-item-img-2 img {
+    width: 190px;
+  }
+
+  footer {
+    padding: 35px;
+  }
+
+  .social-icon img {
+    width: 30px;
+  }
+
+  .about-us {
+    padding: 20px 95px;
+  }
+  .about-us h2 {
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+
+  .about-us-txt {
+    margin: 0 auto;
+    display: block;
+    width: 700px;
+  }
+
+  .reviews {
+    padding: 15px 150px;
+  }
+
+  .reviews img {
+    width: 300px;
+  }
+
+  .reviews h3 {
+    padding-top: 7px;
+  }
+
+  .review-block {
+    padding: 20px 0;
+  }
+
+  .contact-form {
+    padding: 65px 30px 80px;
+  }
+
+  .contact-form h2 {
+    font-size: 30px;
+  }
+
+  .contact-form label {
+    font-size: 18px;
+  }
+
+  .contact-form button {
+    border: 1px solid #5f5e5e;
+  }
+
+  .contact-form-box {
+    padding: 30px 50px;
+  }
+  .input-txt {
+    font-size: 16px;
+    border-bottom: 1px solid #5f5e5e;
+  }
+
+  .input-btn {
+    font-size: 18px;
+  }
+}
