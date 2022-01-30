@@ -1,0 +1,96 @@
+body {
+  background-color: white;
+}
+
+#menu {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.menu-img {
+  width: 60px;
+}
+
+.color-menu ul {
+  list-style: none;
+}
+
+#home-btn {
+  background-color: white;
+  font-weight: bold;
+  padding: 10px 0px 10px 0px;
+  width: 200px;
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#red-btn {
+  background-color: red;
+  font-weight: bold;
+  color: white;
+  padding: 10px 0px 10px 0px;
+  width: 200px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#orange-btn {
+  background-color: orange;
+  font-weight: bold;
+  color: white;
+  padding: 10px 0px 10px 0px;
+  width: 200px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#purple-btn {
+  background-color: purple;
+  font-weight: bold;
+  color: white;
+  padding: 10px 0px 10px 0px;
+  width: 200px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#green-btn {
+  background-color: green;
+  font-weight: bold;
+  color: white;
+  padding: 10px 0px 10px 0px;
+  width: 200px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.orange-background {
+  background-color: orange;
+}
+
+.purple-background {
+  background-color: purple;
+}
+
+.green-background {
+  background-color: green;
+}
+
+.hidden {
+  visibility: hidden;
+}
